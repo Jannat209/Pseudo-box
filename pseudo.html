@@ -26,6 +26,28 @@
         a:visited {
             color: red;
         }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:nth-child(2n) {
+            color: red;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: gray;
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        h3::after {
+            content: ' gello';
+            background-color: aqua;
+            font-size: 39px;
+        }
     </style>
 </head>
 
@@ -42,6 +64,21 @@
     <a
         href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjr3JKVjbj8AhUWSmwGHe8VCmkQFnoECA0QAQ&url=https%3A%2F%2Fwww.underconsideration.com%2Fbrandnew%2F&usg=AOvVaw3Bqg04kezG2r7CngpHh-50">never
         visited</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>kalia</li>
+        <li>calaia</li>
+        <li>palaia</li>
+        <li>charaia</li>
+    </ul>
 </body>
 
 </html>
